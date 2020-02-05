@@ -2,27 +2,42 @@ package com.ilabquality.day2;
 
 import java.util.Scanner;
 
+/**
+ *
+ * @author <Siphesihle Pangumso>
+ */
 public class GasMileage {
 
     public static void main(String[] a) {
 
-        //Declare variables
+        //variable declaration
         int gallons, miles;
         float totalMiles = 0;
-        char trip;
+        char trip = 'Y';
 
         //Logic
         do {
-            //user input
+
+            //user input - gallons
             System.out.print("How many gallons did you use?: ");
             gallons = new Scanner(System.in).nextInt();
-            System.out.print("How many miles did you travel?: ");
-            miles = new Scanner(System.in).nextInt();
 
-            if (gallons > 0 && miles > 0) {
-                totalMiles = (float) totalMiles + (miles / gallons);
+            if (gallons > 0) {
+
+                System.out.print("How many miles did you travel?: ");
+                miles = new Scanner(System.in).nextInt();
+
+                if (miles > 0) {
+
+                } else {
+                    System.out.println("Invalid entry for miles. Try again...");
+                }
+
+                totalMiles = totalMiles + (miles / gallons);
+
             } else {
-                System.out.println("Invalid Entry");
+                System.out.println("Invalid entry for gallons. Try again...");
+                continue;
             }
 
             System.out.print("Do you want to add another trip? 'Y' = YES and 'N' = No: ");

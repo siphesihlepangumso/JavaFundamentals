@@ -2,7 +2,6 @@ package com.ilabquality.day2;
 
 import java.util.Scanner;
 
-
 /**
  *
  * @author <Siphesihle Pangumso>

@@ -1,8 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c60d8f9c-7ec6-45fc-a32f-881afd0c2c9e" name="Default Changelist" comment="Total Price fix, now displays at the end.">
+    <list default="true" id="c60d8f9c-7ec6-45fc-a32f-881afd0c2c9e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFundamentalsExcercises/com/ilabquality/CircleCalculation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFundamentalsExcercises/com/ilabquality/CostOfBagels.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFundamentalsExcercises/com/ilabquality/CostOfCopies.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFundamentalsExcercises/com/ilabquality/CostOfWidgets.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFundamentalsExcercises/com/ilabquality/ElseIf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFundamentalsExcercises/com/ilabquality/EmployeeSalary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFundamentalsExcercises/com/ilabquality/McDonaldQuiz.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFundamentalsExcercises/com/ilabquality/ProfitCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFundamentalsExcercises/com/ilabquality/SinlgeIf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFundamentalsExcercises/com/ilabquality/day2/SalesCalculation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaFundamentalsExcercises/com/ilabquality/day2/SalesCalculation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ilabquality/CircleCalculation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ilabquality/day1/CircleCalculation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ilabquality/CostOfBagels.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ilabquality/day1/CostOfBagels.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ilabquality/CostOfCopies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ilabquality/day1/CostOfCopies.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ilabquality/CostOfWidgets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ilabquality/day1/CostOfWidgets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ilabquality/ElseIf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ilabquality/day1/ElseIf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ilabquality/EmployeeSalary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ilabquality/day1/EmployeeSalary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ilabquality/McDonaldQuiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ilabquality/day2/McDonaldQuiz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ilabquality/ProfitCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ilabquality/day1/ProfitCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ilabquality/SinlgeIf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ilabquality/day1/SinlgeIf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ilabquality/day2/DoWhileLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ilabquality/day2/DoWhileLoop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ilabquality/day2/GasMileage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ilabquality/day2/GasMileage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/ilabquality/day2/SalesCalculation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ilabquality/day2/SalesCalculation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +40,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/siphesihlepangumso/JavaFundamentals.git" />
+      </set>
+    </option>
   </component>
   <component name="ProjectId" id="1XI14Z62Mo9Ye8scO5a5WXsDVV6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -131,7 +159,25 @@
       <option name="presentableId" value="Default" />
       <updated>1580718603196</updated>
     </task>
+    <task id="LOCAL-00001" summary="Total Price fix, now displays at the end.">
+      <created>1580888325647</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1580888325647</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Total Price fix, now displays at the end." />
@@ -142,10 +188,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="123" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1580727064193" />
-    <state x="520" y="282" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1580822402215">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="520" y="296" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1580888899011">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="520" y="282" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1580822402215" />
+    <state x="520" y="296" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.864@0.0.1536.864" timestamp="1580888899011" />
     <state x="361" y="32" key="CommitChangelistDialog2" timestamp="1580888324707">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

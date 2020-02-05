@@ -1,8 +1,8 @@
-package com.ilabquality;
+package com.ilabquality.day1;
 
 import java.util.Scanner;
 
-public class ElseIf {
+public class SinlgeIf {
 
     public static void main(String[] args) {
 
@@ -14,9 +14,9 @@ public class ElseIf {
         //program logic
         if (testMark >= 50 && testMark < 101) {
             System.out.println("Pass");
-        } else if (testMark <= 49 && testMark > -1) {
-            System.out.println("Fail");
-        } else {
+        }//end if
+
+        if (testMark <= 49 && testMark > -1) {
             System.out.println("Fail");
         }
     }//end main method

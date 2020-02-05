@@ -1,4 +1,4 @@
-package com.ilabquality;
+package com.ilabquality.day1;
 
 import java.util.Scanner;
 
