@@ -11,16 +11,18 @@ public class GasMileage {
     public static void main(String[] a) {
 
         //variable declaration
-        int gallons, miles;
-        float totalMiles = 0;
+        int gallons = 0, miles = 0;
+        float totalMGs = 0, MG = 0;
         char trip = 'Y';
 
         //Logic
         do {
 
             //user input - gallons
-            System.out.print("How many gallons did you use?: ");
-            gallons = new Scanner(System.in).nextInt();
+            if (gallons <= 0 ) {
+                System.out.print("How many gallons did you use?: ");
+                gallons = new Scanner(System.in).nextInt();
+            }
 
             if (gallons > 0) {
 
@@ -28,24 +30,27 @@ public class GasMileage {
                 miles = new Scanner(System.in).nextInt();
 
                 if (miles > 0) {
-
+                    MG = miles/gallons;
+                    totalMGs = totalMGs + MG;
                 } else {
                     System.out.println("Invalid entry for miles. Try again...");
+                    continue;
                 }
 
-                totalMiles = totalMiles + (miles / gallons);
+                //Display output
+                System.out.println("current miles per gallon: " + MG);
 
             } else {
                 System.out.println("Invalid entry for gallons. Try again...");
                 continue;
             }
 
-            System.out.print("Do you want to add another trip? 'Y' = YES and 'N' = No: ");
+            System.out.print("Do you want to add another trip? 'Y' = YES and 'any character' = No: ");
             trip = new Scanner(System.in).nextLine().charAt(0);
 
         } while (trip == 'Y' || trip == 'y');
 
         //Display output
-        System.out.println("Total miles per gallon are " + totalMiles + " mp/g");
+        System.out.println("Total miles per gallon: " + totalMGs);
     }
 }
